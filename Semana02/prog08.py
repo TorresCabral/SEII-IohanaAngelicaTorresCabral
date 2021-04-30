@@ -36,10 +36,3 @@ print(os.path.isdir('/Users/Torres Cabral/Documents/GitHub/SEII-IohanaAngelicaTo
 print(os.path.isfile('/Users/Torres Cabral/Documents/GitHub/SEII-IohanaAngelicaTorresCabral'))
 print(os.path.splitext('/Users/Torres Cabral/Documents/GitHub/SEII-IohanaAngelicaTorresCabral/Semana02/prog00.py'))
 print(dir(os.path))
-#------------------------
-#------------------------
-#------------------------
-#------------------------
-#------------------------
-#------------------------
-#------------------------
