@@ -1,10 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 10, 1000)
-y = np.linspace(0, 10, 1000)
+A = np.array([[3, 2, 1], [5, -5, 4], [6, 0, 1]])
+b1 = np.array([1, 2, 3])
+b2 = np.array([-1, 2, -5])
 
-xv, yv = np.meshgrid(x, y)
-zv = xv**2 + yv**2
-plt.contourf(xv, yv, zv, levels = 30)
-plt.colorbar()
+A@b1
+A.T
+np.dot(b1, b2)
+np.cross(b1, b2)
