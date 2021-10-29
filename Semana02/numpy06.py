@@ -1,8 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-a1 = np.array([[4,6,4], [1,2,2], [6,8,7]])
-a1.ravel()
-a1>5
-a2 = np.random.randn(3, 3)
-a1[:,1]
+x = np.linspace(0, 10, 1000)
+y = np.linspace(0, 10, 1000)
+
+xv, yv = np.meshgrid(x, y)
+zv = xv**2 + yv**2
+plt.contourf(xv, yv, zv, levels = 30)
+plt.colorbar()
